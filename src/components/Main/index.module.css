@@ -1,0 +1,84 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mainText h2 {
+  padding-top: 97px;
+  padding-left: 70px;
+  font-size: 35px;
+  line-height: 39px;
+}
+
+.mainText p {
+  padding-top: -8px;
+  font-style: 16px;
+  margin-left: 70px;
+  line-height: 24px;
+}
+
+.mainText .btn2 {
+  width: 159px;
+  height: 40px;
+  margin-left: 70px;
+  margin-top: 14px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(0, 186, 252, 1);
+  color: white;
+  transition: all 0.5s;
+}
+
+.mainText .btn2:hover {
+  color: rgba(0, 186, 252, 1);
+  background-color: #323145;
+}
+
+.mainImg img {
+  width: 558px;
+  height: 358px;
+  margin-left: 740px;
+  margin-top: -260px;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.mainImg img:hover {
+  transform: scale(1.02);
+}
+
+.hero h3 {
+  margin-left: 650px;
+  margin-top: 110px;
+}
+
+.hero p {
+  margin-left: 380px;
+  font-style: 16px;
+  line-height: 24px;
+}
+
+.mainCard .card1 {
+  width: 300px;
+  height: 260px;
+  padding-top: 24px;
+  margin-top: 8px;
+  margin-left: 80px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.mainCard .card1 img {
+  padding-left: 50px;
+}
+
+.mainCard .card1 h3 {
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.mainCard .card1 p {
+  margin-left: 99px;
+}
