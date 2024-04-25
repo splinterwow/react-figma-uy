@@ -4,6 +4,9 @@ import cardImg2 from "../../../public/assets/bot-illustration.svg";
 import cardImg3 from "../../../public/assets/smm-illustration.svg";
 import cardImg4 from "../../../public/assets/design-illustration.svg";
 import cardImg5 from "../../../public/assets/crm-illustration.svg";
+import infoImg1 from "../../../public/assets/step-illlustration.svg";
+import infoImg2 from "../../../public/assets/step-illlustration2.svg";
+
 import styles from "../Main/index.module.css";
 
 function Main() {
@@ -70,6 +73,27 @@ function Main() {
         <a className={styles.sahifa} href="#">
           Xizmatlar sahifasiga o’tish
         </a>
+        <div className={styles.info}>
+          <h3>Biz qanday ishlaymiz?</h3>
+          <p>
+            Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu. Nam
+            facilisis lacinia ex, eget <br /> sollicitudin massa pellentesque
+            in. Vivamus mattis eros at sem pulvinar
+          </p>
+          <div className={styles.info1}>
+            <img src={infoImg1} alt="" />
+            <h3>Talablarni aniqlab chiqamiz</h3>
+            <p>
+              Nullam laoreet nec turpis et ultrices. Duis sit amet quam arcu.{" "}
+              <br /> Nam facilisis
+            </p>
+          </div>
+          <div className={styles.info2}>
+            <h3>Talablarni aniqlab chiqamiz</h3>
+
+            <img src={infoImg2} alt="" />
+          </div>
+        </div>
       </div>
     </>
   );
